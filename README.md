@@ -10,10 +10,7 @@ Via website or in terminal (if you have git):
 
 
 #### Windows systems:
-Prerequisite: Install [Anaconda](https://www.anaconda.com/distribution/) with python version 3.6+. This additionally installs the Anaconda Prompt, which you can find in the windows search bar. Use this Anaconda prompt to run the commands mentioned below.
-
-#### Linux / Windows (dev) systems:
-Prerequisite: [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) environment (with jupyter notebook). Use the terminal to run the commands mentioned below.
+Prerequisite: Install [Anaconda](https://www.anaconda.com/docs/getting-started/miniconda/main/) with python version 3.6.13 This additionally installs the Anaconda Prompt, which you can find in the windows search bar. Use this Anaconda prompt to run the commands mentioned below. Or call conda from the command prompt directly.
 
 ### Importing required modules
 Before running, please install the dependencies. 
