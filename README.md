@@ -51,8 +51,16 @@ How to use:
     
 ### 2. Run script & supply content as flag in string format
     ```sh
-    $ python script.py --input 'patient heeft ra'
+    $ python script.py --input 'Deze patient heeft reumatoide artritis, acpa positief , ochtend stijfheid sinds kindsaf, nu in remissie'
     ```
+#### example output (JSON)
+```sh{
+  "FMS": 0.3859322667121887,
+  "RA": 0.05707930028438568,
+  "OA": 0.19083213806152344
+}
+```
+
 
 
 ## Contact
