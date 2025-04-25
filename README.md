@@ -26,8 +26,8 @@ $ bash build_conda_env.sh
 ```
   
 or   
-```sh
-$ bash build_conda_env.bat
+```cmd
+$ build_conda_env.bat
 ```
 
 #### Option 2: pip
