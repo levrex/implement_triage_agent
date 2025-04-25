@@ -44,13 +44,13 @@ How to use:
 
 ### Step 1. Activate conda environment (to ensure correct versions of modules, see build_conda_env.sh)
     ```sh
-    $ source activate triage_env
+    conda activate triage_env
     ```
     
     
 ### Step 2. Run script & supply content as flag in string format (only after activating environment)
     ```sh
-    $ python run_triage_agent.py --input 'Deze patient heeft reumatoide artritis, acpa positief , ochtend stijfheid sinds kindsaf, nu in remissie'
+    python run_triage_agent.py --input 'Deze patient heeft reumatoide artritis, acpa positief , ochtend stijfheid sinds kindsaf, nu in remissie'
     ```
 #### example output (JSON)
 ```sh
