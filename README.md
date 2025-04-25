@@ -1,5 +1,10 @@
 # Implement triage agent
 
+## Download
+Via website or in terminal (if you have git):
+```sh 
+ git clone https://github.com/levrex/implement_triage_agent
+```
 
 ## Installation
 
@@ -9,11 +14,6 @@ Prerequisite: Install [Anaconda](https://www.anaconda.com/distribution/) with py
 
 #### Linux / Windows (dev) systems:
 Prerequisite: [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) environment (with jupyter notebook). Use the terminal to run the commands mentioned below.
-
-Install Jupyter Notebook:
-```sh
-$ conda install -c anaconda notebook
-```
 
 ### Importing required modules
 Before running, please install the dependencies. 
@@ -37,27 +37,26 @@ prerequisite: pip
 $ pip install -r requirements.txt
 ```
 
-
 ## How to use
 Start a session in the windows terminal 
 
 How to use: 
 
-### 1. Activate conda environment (to ensure correct versions of modules, see build_conda_env.sh)
+### Step 1. Activate conda environment (to ensure correct versions of modules, see build_conda_env.sh)
     ```sh
     $ source activate triage_env
     ```
     
     
-### 2. Run script & supply content as flag in string format
+### Step 2. Run script & supply content as flag in string format (only after activating environment)
     ```sh
-    $ python script.py --input 'Deze patient heeft reumatoide artritis, acpa positief , ochtend stijfheid sinds kindsaf, nu in remissie'
+    $ python run_triage_agent.py --input 'Deze patient heeft reumatoide artritis, acpa positief , ochtend stijfheid sinds kindsaf, nu in remissie'
     ```
 #### example output (JSON)
 ```sh
 {
-  "FMS": 0.3859322667121887,
-  "RA": 0.05707930028438568,
+  "FMS": 0.08652999997138977,
+  "RA": 0.20974136888980865,
   "OA": 0.19083213806152344
 }
 ```
