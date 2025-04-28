@@ -102,7 +102,7 @@ if __name__ == "__main__":
     content = preprocess(content)
 
     ### 2 Run models 
-    l_targets = ['FMS', 'RA', 'OA'] # , 'Chronic'
+    l_targets = ['FMS', 'RA', 'OA', 'Chronic'] # 
 
     d_scores = {}
 

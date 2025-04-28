@@ -1,19 +1,20 @@
 # Implement triage agent
 
 ## Download
-Via website or in terminal (if you have git):
+You can download the files manually via this website or in terminal (if you have git):
 ```sh 
  git clone https://github.com/levrex/implement_triage_agent
 ```
 
 ## Installation
 
+For Dutch readers that would like to implement (from RZWN) we have made a seperate User instruction manual in Dutch called: "20250428_Gebruikshandleiding_SelectieHulp_tool_SlimmeTriage.pdf" 
 
 #### Windows systems:
-Prerequisite: Install [Anaconda](https://www.anaconda.com/docs/getting-started/miniconda/main/) with python version 3.6.13 This additionally installs the Anaconda Prompt, which you can find in the windows search bar. Use this Anaconda prompt to run the commands mentioned below. Or call conda from the command prompt directly.
+Prerequisite: Install [Anaconda](https://www.anaconda.com/docs/getting-started/miniconda/main/) with Python version 3.6.13 This additionally installs the Anaconda Prompt, which you can find in the windows search bar. Use this Anaconda prompt to run the commands mentioned below. Or call conda from the command prompt directly.
 
 ### Importing required modules
-Before running, please install the dependencies. 
+Before running, please install the dependencies. (It is advised to first set up a conda environment).
 
 #### Option 1: create custom kernel with conda (Bash or batch script)
 prerequisite: conda3
@@ -54,7 +55,8 @@ How to use:
 {
   "FMS": 0.08652999997138977,
   "RA": 0.20974136888980865,
-  "OA": 0.19083213806152344
+  "OA": 0.19083213806152344,
+  "Chronic": 0.45154139399528503
 }
 ```
 
