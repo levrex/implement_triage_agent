@@ -8,7 +8,7 @@ You can download the files manually via this website or in terminal (if you have
 
 ## Installation
 
-For Dutch readers that would like to implement (from RZWN) we have made a seperate User instruction manual in Dutch called: "20250428_Gebruikshandleiding_SelectieHulp_tool_SlimmeTriage.pdf" 
+For Dutch readers that would like to implement our AI workflow (from RZWN) we have made a seperate User [instruction manual in Dutch](https://github.com/levrex/implement_triage_agent/blob/main/20250428_Gebruikshandleiding_SelectieHulp_tool_SlimmeTriage.pdf)
 
 #### Windows systems:
 Prerequisite: Install [Anaconda](https://www.anaconda.com/docs/getting-started/miniconda/main/) with Python version 3.6.13 This additionally installs the Anaconda Prompt, which you can find in the windows search bar. Use this Anaconda prompt to run the commands mentioned below. Or call conda from the command prompt directly.
